@@ -1,0 +1,776 @@
+/*start header*/
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.header{
+    background-image: url(../images/img_bg_2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.bg-light {
+    background-color: #f8f9fa00!important;
+    border-bottom: 1px solid grey;
+}
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 27px;
+    margin: auto;
+    padding-left: 70px;
+}
+.navbar-light .navbar-brand:hover{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 27px;
+}
+.navbar-nav{
+    margin-left: 550px;
+}
+.nav-item {
+    padding-left: 30px;
+    font-size: 16px;
+}
+.nav-link{
+    color: white !important;
+}
+.intro{
+    margin-top: 90px;
+}
+.intro h1{
+    font-size: 50px;
+    color: white;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+.intro .myform {
+    border: 2px solid #09C6AB;
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: white;
+    margin-left: 115px;
+    border-radius: 8px;
+}
+.intro .myform h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.intro .myform label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #82868a;
+    margin: 10px 0;
+}
+.intro .myform .input {
+    border: 2px solid #c3c5c5;
+    width: 90%;
+    height: 40px;
+    padding: 0 15px;
+    color: #595a5a;
+}
+.intro .myform .input:hover{
+    border: 2px solid #09C6AB;
+}
+.intro .myform .button{
+    margin: 20px 0;
+}
+.intro .myform .button .mybutton{
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #09C6AB;
+    padding: 8px 0;
+    color: white;
+    background-color: #09C6AB;
+    font-size: 20px;
+}
+.intro .myform .button .mybutton:hover{
+    background-color: white;
+    border-color: #09C6AB;
+    color: #09C6AB;
+}
+.header .modal .modal-content .modal-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.header .modal .modal-content .modal-body h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.header .modal .modal-content .modal-body p{
+    text-align: center;
+    padding: 35px 0;
+    font-size: 20px;
+}
+.header .modal .modal-content .modal-body h6{
+    font-size: 16px;
+    font-weight: 600;
+}
+.header .modal .modal-content .btn{
+    background-color: #09C6AB;
+}
+/*end header*/
+
+
+
+
+/*start Distination*/
+.distination{
+    margin-top: 100px;
+}
+.distination h1{
+    text-align: center;
+}
+.distination p{
+    padding-top: 15px;
+    font-size: 20px;
+    width: 63%;
+    text-align: center;
+    margin-left: 180px;
+    color: #6f6f6f;
+}
+.distination a{
+    text-decoration: none;
+}
+.distination .block {
+    border: 2px solid whitesmoke;
+    width: 100%;
+    margin-top: 50px;
+    padding: 5px 5px;
+}
+.distination .block:hover{
+    border: 2px solid #09C6AB;
+    width: 100%;
+    margin-top: 50px;
+    padding: 5px 5px;
+}
+.distination .block .img-hover-zoom{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.distination .block .img-hover-zoom .myphoto {
+    transition: transform .5s ease;
+    width: 100%;
+  }
+.distination .block .img-hover-zoom:hover .myphoto {
+    transition: .5s;
+    transform: scale(1.5);
+  }
+  .distination .block h3{
+    font-weight: bold;
+    color: #09C6AB;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  .distination .block h6 {
+    color: #6f6f6f;
+    text-align: center;
+    padding: 0 5px;
+} 
+.distination .block .mybtn{
+    margin: 25px 0;
+    text-align: center;
+}
+.distination .block .mybtn button {
+    color: white;
+    width: 60%;
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.distination .block .mybtn button:hover{
+    border: 2px solid #09c6AB;
+    background-color: white;
+    color: #09C6AB;
+}
+
+/*End Distination*/
+
+
+
+
+
+/*start Travel*/
+.travel{
+    padding-top: 100px;
+    background-color: #09C6AB;
+    margin-top: 100px;
+}
+.travel h1{
+    text-align: center;
+    color: white;
+}
+.travel p{
+    padding-top: 15px;
+    font-size: 20px;
+    width: 63%;
+    text-align: center;
+    margin-left: 180px;
+    color: #d4cdcd
+}
+.travel .row{
+    margin-top: 100px;
+    text-align: center;
+}
+.travel .photo{
+    width: 50%;
+    border-radius: 50%;
+}
+.travel h3{
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0;
+    color: white;
+}
+.travel h6{
+    text-align: center;
+    font-size: 16px;
+    color: #d4cdcd;
+    line-height: 1.5;
+    padding: 15px 0;
+}
+/*End Travel*/
+
+
+
+/*Start Travel2*/
+.info{
+    background-image: url(../images/img_bg_1.jpg);
+    background-attachment: fixed;
+}
+.info h1 {
+    padding: 250px 0;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+.overlay {
+    /* position: absolute; */
+    left: 0;
+    top: 2735px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.42);
+    z-index: 1;
+}
+/*End Tavel2*/
+
+
+
+
+
+/*Start Pricing*/
+.pric{
+    margin-top: 100px;
+}
+.pric h1{
+    text-align: center;
+}
+.pric p{
+    padding-top: 15px;
+    font-size: 20px;
+    width: 63%;
+    text-align: center;
+    margin-left: 180px;
+    color: #6f6f6f;
+}
+.pric .row{
+    margin: 80px 0;
+}
+.pric h2{
+    text-align: center;
+    padding: 20px 0;
+    color: #09C6AB;
+    font-size: 50px;
+}
+.pric h3{
+    text-align: center;
+    font-size: 23px;
+    color: #6f6f6f;
+}
+/*End Pricing*/
+
+
+
+/*Start Pricing2*/
+.data{
+    margin-top: 100px;
+    background-color: #0098EF;
+}
+.data h1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.data p {
+    /* padding-top: 15px; */
+    font-size: 20px;
+    /* width: 63%; */
+    text-align: center;
+    /* margin-left: 180px; */
+    color: #c7c7c7;
+    padding: 20px 0;
+}
+.data form{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.data .input {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 7px 10px;
+    width: 25%;
+}
+.data .button{
+    border: 2px solid white;
+    padding: 7px 10px;
+    width: 25%;
+    margin: 0 40px;
+    background-color: white;
+    border-radius: 5px;
+    color: #8e8e8e;
+}
+/*End Pricing2*/
+
+
+
+
+
+/*Start Footer*/
+.footer{
+    margin-top: 100px;
+}
+.footer h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+}
+.footer .leftt{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.footer p{
+    font-size: 16px;
+}
+.footer ul {
+    list-style: none ;
+    margin-left: 30px;
+    color: #09C6AB ;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer .list {
+    list-style: none;
+    color: #09C6AB;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 55px;
+}
+.footer .fa{
+    padding: 15px 0;
+}
+
+
+/*End Footer*/
+
+
+
+
+
+
+/*start responsive for mobile*/
+@media (max-width: 767px) {
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 27px;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-nav {
+        margin-left: 0;
+    }
+    .header {
+        background-image: url(../images/img_bg_2.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .intro h1 {
+        font-size: 20px;
+        color: white;
+        line-height: 1.5;
+        margin-top: 0;
+        text-align: center;
+    }
+    .intro .myform {
+        border: 2px solid #09C6AB;
+        width: 70%;
+        padding-top: 50px;
+        padding-left: 29px;
+        background-color: white;
+        margin-left: 60px;
+        border-radius: 8px;
+    }
+
+
+
+
+
+
+    /*start distination*/
+    .distination h1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .distination p {
+        padding-top: 15px;
+        font-size: 20px;
+        text-align: center;
+        color: #6f6f6f;
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+
+
+
+    /*start travel*/
+    .travel h1 {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .travel p {
+        padding-top: 15px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        color: #d4cdcd;
+    }
+
+
+
+
+
+    /*start info*/
+    .info {
+        background-image: url(../images/img_bg_1.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .info h1 {
+        padding: 250px 0;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+
+
+    /*start pic*/
+    .pric h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .pric p {
+        padding-top: 15px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        color: #6f6f6f;
+    }
+    .pric .coll{
+        width: 50%;
+    }
+    .pric h2 {
+        text-align: center;
+        padding: 20px 0;
+        color: #09C6AB;
+        font-size: 40px;
+    }
+    .pric h3 {
+        text-align: center;
+        font-size: 18px;
+        color: #6f6f6f;
+    }
+
+
+
+
+    /*start data*/
+    .data h1{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        padding-top: 100px;
+    }
+    .data .input {
+        border: 2px solid white;
+        border-radius: 4px;
+        padding: 7px 10px;
+        width: 50%;
+    }
+
+
+
+
+
+    /*start footer*/
+    .footer h2 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
+        padding: 15px 0;
+    }
+    .footer ul {
+        color: #09C6AB;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 0;
+        list-style: circle;
+    }
+    .footer .list {
+        list-style: circle;
+        color: #09C6AB;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 0;
+    }
+}
+
+
+
+
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 27px;
+        margin: 0 10px;
+        padding-left: 0;
+    }
+    .navbar-nav {
+        margin-left: 0;
+    }
+    .header {
+        background-image: url(../images/img_bg_2.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+   
+    .intro h1 {
+        font-size: 24px;
+        color: white;
+        line-height: 1.5;
+        margin-top: 100px;
+    }
+    .intro .myform {
+        border: 2px solid #09C6AB;
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 050px;
+        background-color: white;
+        margin-left: 0;
+        border-radius: 8px;
+    }
+
+
+
+
+    /*start distination*/
+    .distination h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .distination p {
+        padding-top: 15px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        color: #6f6f6f;
+    }
+    .distination .block .mybtn button {
+        color: white;
+        width: 70%;
+        background-color: black;
+        border: 2px solid black;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+    /*start travel*/
+    .travel h1 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .travel p {
+        padding-top: 15px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        color: #d4cdcd;
+    }
+    .travel h3 {
+        font-size: 18px;
+        text-align: center;
+        padding: 25px 0;
+        color: white;
+    }
+
+
+
+
+
+
+    /*start info*/
+    .info {
+        background-image: url(../images/img_bg_1.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .info h1 {
+        padding: 250px 0;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+
+
+
+    /*start price*/
+    .pric h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .pric p {
+        padding-top: 15px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        color: #6f6f6f;
+    }
+    .pric h2 {
+        text-align: center;
+        padding: 20px 0;
+        color: #09C6AB;
+        font-size: 35px;
+    }
+    .pric h3 {
+        text-align: center;
+        font-size: 16px;
+        color: #6f6f6f;
+    }
+
+
+
+
+
+
+    /*start data*/
+    .data h1 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .data .input {
+        border: 2px solid white;
+        border-radius: 4px;
+        padding: 7px 10px;
+        width: 45%;
+    }
+
+
+
+
+
+
+
+    /*start footer*/
+    .footer ul {
+        list-style: circle;
+        margin-left: -4px;
+        color: #09C6AB;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .footer .list {
+        list-style: circle;
+        color: #09C6AB;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: -12px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px){
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 27px;
+        margin: auto;
+        padding-left: 0;
+    }
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin: 0 340px;
+    }
+    .header {
+        background-image: url(../images/img_bg_2.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
